@@ -1,0 +1,22 @@
+.nav-mybrand{
+    color: var(--theme-mycolor-4);
+    text-decoration: none;
+    margin:0px
+}
+
+.nav-mybrand > h1{
+    margin:0px;
+    font-size: x-large;
+}
+
+.btn-outline-mycolor-1 {
+    background-color: var(--theme-mycolor-1);
+    color: var(--theme-mycolor-4);
+    border: 1px solid var(--theme-mycolor-4);
+}
+
+.btn-outline-mycolor-1:hover {
+    background-color: var(--theme-mycolor-4);
+    color: var(--theme-mycolor-1);
+    border: 1px solid var(--theme-mycolor-4);
+}
