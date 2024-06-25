@@ -4,11 +4,11 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 //<----- Route ----->
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
 import Contact from './pages/Contact.tsx';
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path:'/',
     element: <Home />,
