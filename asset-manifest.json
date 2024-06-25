@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-page/static/css/main.a6a61e9a.css",
-    "main.js": "/my-page/static/js/main.43b077b4.js",
+    "main.js": "/my-page/static/js/main.4c2060cb.js",
     "static/media/IMG_6059.jpg": "/my-page/static/media/IMG_6059.fb883e8cea56fe3b275f.jpg",
     "static/media/densotechno.png": "/my-page/static/media/densotechno.8acfabb7c5bc2b7b0014.png",
     "index.html": "/my-page/index.html",
     "main.a6a61e9a.css.map": "/my-page/static/css/main.a6a61e9a.css.map",
-    "main.43b077b4.js.map": "/my-page/static/js/main.43b077b4.js.map"
+    "main.4c2060cb.js.map": "/my-page/static/js/main.4c2060cb.js.map"
   },
   "entrypoints": [
     "static/css/main.a6a61e9a.css",
-    "static/js/main.43b077b4.js"
+    "static/js/main.4c2060cb.js"
   ]
 }
