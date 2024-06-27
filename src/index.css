@@ -1,26 +1,69 @@
-:root{
+:root {
   /* https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa */
-  --theme-mycolor-1: #1B262C;
-  --theme-mycolor-2: #0F4C75;
-  --theme-mycolor-3: #3282B8;
-  --theme-mycolor-4: #BBE1FA ;
+  --theme-mycolor-1: #1b262c; /* Charleston Green */
+  --theme-mycolor-2: #0f4c75;
+  --theme-mycolor-3: #3282b8;
+  --theme-mycolor-4: #bbe1fa; /* Uranian Blue */
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 /*My Style*/
-.bg-mycolor-1{
+.bg-mycolor-1 {
   background-color: var(--theme-mycolor-1) !important;
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+  .bg-mytoppage {
+    margin: 0% -20%;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 576px) {
+  .bg-mytoppage {
+    margin: 0% -40%;
+  }
+}
+
+@media all and (max-width: 576px) and (min-width: 0px) {
+  .bg-mytoppage {
+    margin: 0% -50%;
+  }
+}
+
+.bg-mytoppage {
+  position: fixed;
+  z-index: -1;
+  height: auto;
+  width: auto;
+}
+
+.bg-glass {
+  /* From https://css.glass */
+  background: rgba(204, 214, 221, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+@font-face {
+  font-family: "zx-spectrum";
+  src: URL("../src/fonts/zx_spectrum/zx-spectrum.ttf") format("truetype");
+}
+
+.font-zxspect{
+  font-family: zx-spectrum;
 }

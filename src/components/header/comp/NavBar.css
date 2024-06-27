@@ -20,3 +20,7 @@
     color: var(--theme-mycolor-1);
     border: 1px solid var(--theme-mycolor-4);
 }
+
+.img-mysitelogo {
+    width: 50px;
+}

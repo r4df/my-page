@@ -2,10 +2,10 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import FooterCont from "./comp/FooterCont.tsx";
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer className="bg-light">
+    <div className={`bg-light ${props.footerpost}`}>
       <FooterCont />
-    </footer>
+    </div>
   );
 }
