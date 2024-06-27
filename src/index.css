@@ -25,9 +25,21 @@ code {
   background-color: var(--theme-mycolor-1) !important;
 }
 
-@media all and (max-width: 992px) and (min-width: 768px) {
+@media all and (max-width: 1400px) and (min-width: 1200px) {
+  .bg-mytoppage {
+    margin: 0% -10%;
+  }
+}
+
+@media all and (max-width: 1200px) and (min-width: 992px) {
   .bg-mytoppage {
     margin: 0% -20%;
+  }
+}
+
+@media all and (max-width: 992px) and (min-width: 768px) {
+  .bg-mytoppage {
+    margin: 0% -30%;
   }
 }
 
@@ -46,8 +58,6 @@ code {
 .bg-mytoppage {
   position: fixed;
   z-index: -1;
-  height: auto;
-  width: auto;
 }
 
 .bg-glass {
@@ -67,3 +77,4 @@ code {
 .font-zxspect{
   font-family: zx-spectrum;
 }
+

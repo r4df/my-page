@@ -21,17 +21,10 @@ export default function Home() {
           <Container className="m-3 p-5 rounded-3">
             <Row>
               <Col></Col>
-              <Col className="bg-glass p-5">
-                <h2 className="font-zxspect">Hi! I'm Rodolfo</h2>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
-                </p>
+              <Col xxl={5} xl={5} lg={5} md={6} xs={10} className="bg-glass p-5">
+                <h2 className="font-zxspect ">Hi!</h2>
+                <h2 className="font-zxspect">I'm Dolfo</h2>
+                <p className="font-zxspect">Software & Web Developer</p>
               </Col>
             </Row>
           </Container>
