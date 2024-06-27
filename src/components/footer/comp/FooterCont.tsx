@@ -1,7 +1,7 @@
 import React from "react";
 
 //Bootstrap
-import "../comp/FooterCont.css"
+import "../comp/FooterCont.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -9,6 +9,9 @@ import Container from "react-bootstrap/Container";
 export default function FooterCont() {
   return (
     <Container>
+      <Row>
+        <p>This app was develop in TypeScript, React and Bootstrap 5</p>
+      </Row>
       <Row>
         <Col>
           <div>Socials</div>

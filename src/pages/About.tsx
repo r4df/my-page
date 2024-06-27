@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header/Header.tsx";
 import Footer from "../components/footer/Footer.tsx";
+import MyLine from "../pages/common/MyLine.tsx"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,15 +13,16 @@ export default function About() {
   return (
     <div>
       <Header />
+      <main>
+        <Container className="p-3">
 
-      <Container>
-        <main>
-          <Container className="bg-body-tertiary m-3 p-5 rounded-3">
+          {/* About */}
+          <Row className="bg-body-tertiary justify-content-center my-3 p-5 rounded-3" fluid>
             <Row>
               <h1>About</h1>
             </Row>
             <Row>
-              <div className="border-bottom m-3"></div>
+              <MyLine />
             </Row>
             <Row>
               <Col md={3} lg={3} xl={3} xxl={3}>
@@ -35,25 +37,29 @@ export default function About() {
                   the business process to stay competitive with other companies.
                 </p>
 
-                <p><i className="fa-solid fa-envelope"></i> delafuente.rodolfo4@gmail.com</p>
+                <p>
+                  <i className="fa-solid fa-envelope"></i>{" "}
+                  delafuente.rodolfo4@gmail.com
+                </p>
               </Col>
             </Row>
-          </Container>
+          </Row>
 
-          <Container className="bg-body-tertiary m-3 p-5 rounded-3">
+          {/* Experience */}
+          <Row className="bg-body-tertiary justify-content-center my-3 p-5 rounded-3">
             <Row>
               <Col>
                 <h1>Experience</h1>
               </Col>
             </Row>
             <Row>
-              <div className="border-bottom m-3"></div>
+              <MyLine />
             </Row>
             <Row>
               <Col>
                 <Row className="mb-3">
                   <Col xxl={4} xl={4} lg={4} rounded>
-                    <Image src={CompanyImg} fluid className="" />
+                    <Image src={CompanyImg} fluid className="p-3" />
                   </Col>
                   <Col>
                     <Container>
@@ -78,7 +84,7 @@ export default function About() {
               <Col>
                 <Row>
                   <h5>
-                    <i className="fa-solid fa-gears"></i> Roles:
+                    <i className="fa-solid fa-gears fa-spin"></i> Roles:
                   </h5>
                   <ul>
                     <li>
@@ -98,7 +104,7 @@ export default function About() {
                 </Row>
                 <Row>
                   <h5>
-                    <i className="fa-solid fa-code"></i> Skills Learned:
+                    <i className="fa-solid fa-code fa-fade"></i> Skills Learned:
                   </h5>
                   <ul>
                     <li>C Language </li>
@@ -112,10 +118,10 @@ export default function About() {
             <Row>
               <Col></Col>
             </Row>
-          </Container>
-        </main>
-        <aside></aside>
-      </Container>
+          </Row>
+
+        </Container>
+      </main>
 
       <Footer />
     </div>
