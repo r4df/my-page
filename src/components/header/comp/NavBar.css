@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 .5rem;
 }
 
 .nav-title-menu{
@@ -19,7 +20,8 @@
 }
 
 .mybrand-title img {
-  height: 50px;
+  height: 5rem;
+  padding: .5rem;
 }
 
 .mybrand-title h1 {

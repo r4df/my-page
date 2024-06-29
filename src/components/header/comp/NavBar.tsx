@@ -5,11 +5,18 @@ import { Link } from "react-router-dom";
 import "../comp/NavBar.css";
 import SiteLogImg from "../comp/SiteLogo.jpeg";
 
+const GL_NAV_STS_ACTIVE = "active";
+const GL_NAV_STS_INACTIVE = "";
+
 function NavBar() {
-  const [stateNavLink, setNavLink] = useState("");
+  const [stateNavLink, setNavLink] = useState(GL_NAV_STS_INACTIVE);
 
   const toggleNavLink = () => {
-    setNavLink(stateNavLink === "" ? "active" : "");
+    setNavLink(
+      stateNavLink === GL_NAV_STS_INACTIVE
+        ? GL_NAV_STS_ACTIVE
+        : GL_NAV_STS_INACTIVE
+    );
   };
 
   return (
@@ -18,7 +25,7 @@ function NavBar() {
         <div className="nav-title-menu">
           <div className="mybrand-title">
             <img src={SiteLogImg} alt="R4DF :)" />
-            <h1>R4DF</h1>
+            <h1 className="font-zxspect">R4DF</h1>
           </div>
 
           <button onClick={toggleNavLink} className="btn nav-menu">

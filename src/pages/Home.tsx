@@ -1,4 +1,5 @@
 import React from "react";
+import "../pages/Home.css"
 
 // Component
 import Header from "../components/header/Header.tsx";
@@ -21,10 +22,12 @@ export default function Home() {
           <Container className="m-3 p-5 rounded-3">
             <Row>
               <Col></Col>
-              <Col xxl={5} xl={5} lg={5} md={6} xs={10} className="bg-glass p-5">
-                <h2 className="font-zxspect ">Hi!</h2>
-                <h2 className="font-zxspect">I'm Dolfo</h2>
-                <p className="font-zxspect">Software & Web Developer</p>
+              <Col>
+                <div className="myintro bg-glass">
+                  <p className="mytitle">Hi!</p>
+                  <p className="mytitle">I'm Dolfo</p>
+                  <p className="mydescription">Software & Web Developer</p>
+                </div>
               </Col>
             </Row>
           </Container>
