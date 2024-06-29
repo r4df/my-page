@@ -20,9 +20,19 @@ code {
     monospace;
 }
 
-/*My Style*/
+/*****************************************/
+/*************** MY STYLE ****************/
+/*****************************************/
 .bg-mycolor-1 {
   background-color: var(--theme-mycolor-1) !important;
+}
+
+/****************************************/
+/*************** PAGE BG ****************/
+/****************************************/
+.bg-mytoppage {
+  position: fixed;
+  z-index: -1;
 }
 
 @media all and (max-width: 1400px) and (min-width: 1200px) {
@@ -55,11 +65,9 @@ code {
   }
 }
 
-.bg-mytoppage {
-  position: fixed;
-  z-index: -1;
-}
-
+/****************************************/
+/*************** GLASS BG ***************/
+/****************************************/
 .bg-glass {
   /* From https://css.glass */
   background: rgba(204, 214, 221, 0.34);
@@ -69,6 +77,9 @@ code {
   -webkit-backdrop-filter: blur(20px);
 }
 
+/*************************************/
+/*************** FONTS ***************/
+/*************************************/
 @font-face {
   font-family: "zx-spectrum";
   src: URL("../src/fonts/zx_spectrum/zx-spectrum.ttf") format("truetype");
