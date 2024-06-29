@@ -1,0 +1,27 @@
+.myintro {
+  padding: 3rem;
+}
+
+.myintro > .mytitle {
+  font-size: x-large;
+  font-family: zx-spectrum;
+}
+
+.myintro > .mydescription {
+  font-size: medium;
+  font-family: zx-spectrum;
+}
+
+@media all and (max-width: 992px) and (min-width: 0) {
+  .myintro {
+    padding: 1rem;
+  }
+
+  .myintro > .mytitle {
+    font-size: small;
+  }
+
+  .myintro > .mydescription {
+    font-size: xx-small;
+  }
+}
