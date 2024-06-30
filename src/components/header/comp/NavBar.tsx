@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Assets
 import "../comp/NavBar.css";
-import SiteLogImg from "../comp/SiteLogo.jpeg";
+import SiteLogImg from "../comp/SiteLogo.png";
 
 const GL_NAV_STS_ACTIVE = "active";
 const GL_NAV_STS_INACTIVE = "";
