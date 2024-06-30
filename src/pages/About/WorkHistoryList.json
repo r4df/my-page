@@ -1,0 +1,93 @@
+[
+  {
+    "Company": {
+      "Name": "DENSO TECHNO PHILIPPINES",
+      "Logo": "densotechno.png",
+      "Description": "Software Engineering Company for Automotive",
+      "Address": "Metro Manila, Philippines",
+      "Tenure": "Jul 2012 ~ Jul 2017"
+    },
+    "Roles": [
+      "Analyzed requirements provided by suppliers to determine what changes is needed in the ECU software.",
+      "Created implementation designs to understand changes in the software based on requirements.",
+      "Written code in the ECU software based on supplier requirements.",
+      "Tested software to ensure quality."
+    ],
+    "SkillsLearned": [
+      {
+        "Name": "C Language",
+        "Icon": "icons8-c-48.png"
+      },
+      {
+        "Name": "Functional Testing",
+        "Icon": "icons8-テスト.gif"
+      },
+      {
+        "Name": "Integrated Testing",
+        "Icon": "icons8-テスト.gif"
+      },
+      {
+        "Name": "MS Office",
+        "Icon": "icons8-office-365-48.png"
+      }
+    ]
+  },
+  {
+    "Company": {
+      "Name": "TECHNOPRO ENGINEERING",
+      "Logo": "techoproengineering.jpeg",
+      "Description": "Technology-focused Staffing and Service Company",
+      "Address": "Atsugi Branch, Japan",
+      "Tenure": "Sept 2017 ~ Present"
+    },
+    "Roles": [
+      "Developed software under agile methodology to ensure tools satisfy user requirements through feedback gathering and faster delivery.",
+      "Programmed software using various programming languages, such as VBA, Python, and Javascript, for flexibility.",
+      "Managed project requests.",
+      "Managed all queries from vendors and providing solutions.",
+      "Reviewed deliverables to ensure quality."
+    ],
+    "SkillsLearned": [
+      {
+        "Name": "React JS",
+        "Icon": "icons8-react-native.gif"
+      },
+      {
+        "Name": "VBA Excel",
+        "Icon": "icons8-microsoft-excel-2019-48.png"
+      },
+      {
+        "Name": "Python",
+        "Icon": "icons8-python.gif"
+      },
+      {
+        "Name": "HTML",
+        "Icon": "icons8-html-48.png"
+      },
+      {
+        "Name": "CSS",
+        "Icon": "icons8-css-48.png"
+      },
+      {
+        "Name": "JavaScript",
+        "Icon": "icons8-javascript.gif"
+      },
+      {
+        "Name": "JSON",
+        "Icon": "icons8-json-(javascript-object-notation)-is-a-lightweight-data-interchange-format-48.png"
+      },
+      {
+        "Name": "MS Office",
+        "Icon": "icons8-office-365-48.png"
+      },
+      {
+        "Name": "MS Sharepoint",
+        "Icon": "icons8-マイクロソフトシェアポイント2019-48.png"
+      },
+      {
+        "Name": "MS Power Automate",
+        "Icon": "icons8-microsoft-power-automate-2020-48.png"
+      }
+    ]
+  }
+]

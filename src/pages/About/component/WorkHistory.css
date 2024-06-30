@@ -1,0 +1,35 @@
+.my-historycompany{
+    width:100px;
+}
+
+.my-skillicon{
+    width: 1.5rem;
+    border-radius: .25rem;
+}
+
+.my-skillslist{
+    flex-direction: row;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.my-skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--theme-mycolor-1);
+    color: var(--theme-mycolor-1);
+    margin: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    background-color: var(--theme-mycolor-5);
+    box-shadow: 5px 5px 10px 0px #1b262c7d;
+}   
+
+.my-skills > p{
+    margin: 0;
+}
+.my-skills > img{
+    margin-left: .5rem;
+}
