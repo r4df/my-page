@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.bae4a982.css",
-    "main.js": "/my-page/static/js/main.2a29b2d0.js",
+    "main.css": "/my-page/static/css/main.19f211df.css",
+    "main.js": "/my-page/static/js/main.bd76bd8a.js",
     "static/media/IMG_6059.jpg": "/my-page/static/media/IMG_6059.fb883e8cea56fe3b275f.jpg",
     "static/media/TopPageBg.jpeg": "/my-page/static/media/TopPageBg.c7a8c8e8550feeed7232.jpeg",
-    "static/media/SiteLogo.jpeg": "/my-page/static/media/SiteLogo.a076e72b0401bdad6268.jpeg",
+    "static/media/icons8-react-native.gif": "/my-page/static/media/icons8-react-native.7949532db65da5e57be0.gif",
+    "static/media/SiteLogo.png": "/my-page/static/media/SiteLogo.3e5bd2e1e1154d520c89.png",
+    "static/media/icons8-テスト.gif": "/my-page/static/media/icons8-テスト.084b6c43588d6ce9ac69.gif",
+    "static/media/icons8-python.gif": "/my-page/static/media/icons8-python.b437742745fe3d50f050.gif",
     "static/media/zx-spectrum.ttf": "/my-page/static/media/zx-spectrum.d247d9eeacd01d49b2b3.ttf",
     "static/media/densotechno.png": "/my-page/static/media/densotechno.8acfabb7c5bc2b7b0014.png",
     "index.html": "/my-page/index.html",
-    "main.bae4a982.css.map": "/my-page/static/css/main.bae4a982.css.map",
-    "main.2a29b2d0.js.map": "/my-page/static/js/main.2a29b2d0.js.map"
+    "main.19f211df.css.map": "/my-page/static/css/main.19f211df.css.map",
+    "main.bd76bd8a.js.map": "/my-page/static/js/main.bd76bd8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bae4a982.css",
-    "static/js/main.2a29b2d0.js"
+    "static/css/main.19f211df.css",
+    "static/js/main.bd76bd8a.js"
   ]
 }
