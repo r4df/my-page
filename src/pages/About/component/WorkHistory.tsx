@@ -8,11 +8,11 @@ export default function WorkHistory(props) {
         <div className="col">
           <div className="container">
             <div className="row mb-3">
-              <div className="col-5">
+              <div className="col-sm-10 col-md-5 p-3">
                 <img
                   src={require(`../../About/image/${props.whlist.Company.Logo}`)}
                   alt=""
-                  className="img-fluid"
+                  className="my-company-logo img-fluid"
                 />
               </div>
               <div className="col">
