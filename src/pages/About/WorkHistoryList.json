@@ -49,19 +49,7 @@
     ],
     "SkillsLearned": [
       {
-        "Name": "React JS",
-        "Icon": "icons8-react-native.gif"
-      },
-      {
-        "Name": "VBA Excel",
-        "Icon": "icons8-microsoft-excel-2019-48.png"
-      },
-      {
-        "Name": "Python",
-        "Icon": "icons8-python.gif"
-      },
-      {
-        "Name": "HTML",
+        "Name": "HTML5",
         "Icon": "icons8-html-48.png"
       },
       {
@@ -75,6 +63,26 @@
       {
         "Name": "JSON",
         "Icon": "icons8-json-(javascript-object-notation)-is-a-lightweight-data-interchange-format-48.png"
+      },
+      {
+        "Name": "ReactJS",
+        "Icon": "icons8-react-native.gif"
+      },
+      {
+        "Name": "GitHub",
+        "Icon": "icons8-github.gif"
+      },
+      {
+        "Name": "VBA Excel",
+        "Icon": "icons8-microsoft-excel-2019-48.png"
+      },
+      {
+        "Name": "Python",
+        "Icon": "icons8-python.gif"
+      },
+      {
+        "Name": "Python:Pandas",
+        "Icon": "icons8-pandas-48.png"
       },
       {
         "Name": "MS Office",
